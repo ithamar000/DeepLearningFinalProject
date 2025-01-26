@@ -2,23 +2,39 @@
 
 ## Overview
 
-This repository contains the final project for the 2021 Deep Learning course with Jonathan Rubin at HIT. 
-The project is implemented in a Jupyter Notebook and includes relevant resources and references.
+This repository hosts the final project for the 2021 Deep Learning course led by Jonathan Rubin at HIT. The project applies advanced deep learning techniques and includes the implementation, analysis, and results within a Jupyter Notebook. The project explores concepts taught during the course and provides practical applications and insights into deep learning methodologies.
 
-## Contents
+The repository also contains supporting documents and resources referenced during the project, such as academic papers and datasets.
 
-- `FinalProject.ipynb`: The main Jupyter Notebook containing the project's code and explanations.
-- `archive/`: A directory containing additional resources or data used in the project.
+---
+
+## Repository Contents
+
+Here’s a breakdown of the repository structure:
+
+- **`FinalProject.ipynb`**: The main Jupyter Notebook containing the code, implementation details, and commentary.
+- **`class13.pdf`**: A course-related document that provides supplementary information or context.
+- **`srep27988.pdf`**: An academic paper referenced in the project, likely used as a foundation or source of inspiration for the methods implemented.
+- **`archive/`**: A folder containing additional datasets, models, or resources utilized in the project.
+
+---
 
 ## Requirements
 
-To run the notebook, ensure you have the following installed:
+To run this project, you’ll need the following installed on your system:
 
-- Python 3.x
-- Jupyter Notebook
-- Required Python packages (as specified in the notebook)
+- **Python**: Version 3.x
+- **Jupyter Notebook**
+- Python packages:
+  - NumPy
+  - TensorFlow
+  - Matplotlib
+  - Pandas
+  - Scikit-learn
 
-You can install the necessary Python packages using:
+### Installation Instructions
+
+You can manually install the dependencies using:
 
 ```bash
-pip install -r requirements.txt
+pip install numpy matplotlib pandas scikit-learn tensorflow
